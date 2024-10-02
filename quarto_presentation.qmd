@@ -3,6 +3,7 @@ title: "Lab 6: Quarto Presentation"
 author: "Baldemar Motomochi"
 format: revealjs
 editor: visual
+bibliography: references.bib
 ---
 
 ## Quarto
@@ -23,3 +24,5 @@ When you click the **Render** button a presentation will be generated that inclu
 ```{r}
 1 + 1
 ```
+
+\## Some Important Literature
