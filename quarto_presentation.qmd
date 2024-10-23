@@ -2,23 +2,19 @@
 title: "Lab 6: Quarto Presentation"
 format: revealjs
 editor: visual
+bibliography: references.bib
 ---
 
-## Quarto
+## Some Important Literature
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+-   This reference shows how stochasticity in gene expression for the mutual repressor her1/her7 proteins is leveraged to produce robust somite patterning in embryos. [@keseroglu_stochastic_2023]
 
-## Bullets
+-   This reference was one of the first articles to show that her1 and her7 act in unison to coordinate the activity of the segmentation clock through autorepressive means. [@henry_two_2002]
 
-When you click the **Render** button a document will be generated that includes:
+## A cool equation or two
 
--   Content authored with markdown
--   Output from executable code
+$$
+\sum_{k=1}^5(k^2+2) = (1^2+2)+(2^2+2)+(3^2+2)+(4^2+2)+(5^2+2)\\ = 3+6+11+18+27\\ = 65.
+$$
 
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
+## References
